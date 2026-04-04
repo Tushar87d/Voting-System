@@ -6,7 +6,7 @@ class VotingSystem
     {
         Scanner sc = new Scanner(System.in)
                 ;
-        System.out.println("Enter the population : ");
+        System.out.println("Enter  the population of woters: ");
         int pop = sc.nextInt();
         for(int i=1;i<=pop;i++)
         {
