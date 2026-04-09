@@ -6,12 +6,12 @@ class VotingSystem
     {
         Scanner sc = new Scanner(System.in)
                 ;
-        System.out.println("Enter  the population of woters: ");
+        System.out.println("Enter the population of woters: ");
         int pop = sc.nextInt();
         for(int i=1;i<=pop;i++)
         {
             System.out.println();
-            System.out.println("***WELCOME ***");
+            System.out.println("*** WELCOME ***");
             System.out.println();
             System.out.println();
             System.out.println("1.ABC 2.XYZ 3.MNO 4.PQR 5.GHI 6.NOTA");
